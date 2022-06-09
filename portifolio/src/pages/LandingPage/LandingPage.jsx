@@ -10,7 +10,11 @@ function LandingPage() {
         </h1>
       </div>
 
-      <img src="https://i.imgur.com/vsebhro.png" className="landing-image" />
+      <img
+        src="https://i.imgur.com/vsebhro.png"
+        className="landing-image"
+        alt="background-img"
+      />
     </div>
   );
 }

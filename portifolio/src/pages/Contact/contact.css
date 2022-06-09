@@ -1,0 +1,29 @@
+body{
+    background-color: #0c0c0c;
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+    padding-top: 60px;
+}
+
+.contact_form .form-control{
+    padding: 1.375rem .75rem;
+    line-height: 1.5;
+    color: #ffff;
+    background-color:#0c0c0c ;
+    border-radius: 0;
+    border: 1px solid #ffff;
+}
+
+.contact_form  input.form-control{
+    margin-bottom: 2em;
+    height: calc(2.5rem+.75rem+2px);
+}
+
+.btn{
+    color: white;
+    border: 2px solid white ;
+}
+
+.btn:hover{
+    color: white;
+}
