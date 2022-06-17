@@ -38,7 +38,7 @@ function Skills() {
       </div>
       <div class="skill-row">
         <img
-          class="chilli-img"
+          class="backend-img"
           src="https://cdn.programadoresbrasil.com.br/wp-content/uploads/2021/05/spring-framework.png"
           alt="chillies-img"
         />
@@ -55,7 +55,6 @@ function Skills() {
             <li>NoSQL </li>
             <li>Firebase </li>
             <li>AWS</li>
-            <li>HTML</li>
           </ul>
         </div>
       </div>
