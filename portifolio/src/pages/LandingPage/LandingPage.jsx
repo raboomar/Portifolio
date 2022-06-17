@@ -2,20 +2,12 @@ import "./landingPage.css";
 
 function LandingPage() {
   return (
-    <div>
-      <div className="landing-text">
-        <h1>Hi, I'm Rami Aboomar.</h1>
-        <h1 className="landing-text-dev">
-          A web <span className="dev">developer.</span>
-        </h1>
+    <section class="top-container">
+      <div class="title-text">
+        <h1>I'm Rami Aboomar.</h1>
+        <h2>A Full-Stack Developer</h2>
       </div>
-
-      <img
-        src="https://i.imgur.com/vsebhro.png"
-        className="landing-image"
-        alt="background-img"
-      />
-    </div>
+    </section>
   );
 }
 

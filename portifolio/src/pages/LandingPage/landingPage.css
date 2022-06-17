@@ -1,19 +1,19 @@
-.landing-image{
-    height: 100vh;
-    width: 100%;
+.top-container{
+  
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
-.landing-text{
-    position: absolute;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
+.mountain{
 
-.landing-text-dev{
-    padding-left: 45px;
-}
-
-.dev{
-    color: rgb(240, 84, 84);
 }

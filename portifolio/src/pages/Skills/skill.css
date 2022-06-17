@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .code-img {
+    width: 25%;
+    float: left;
+    /* margin-right: 30px; */
+  }
+  .chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+.toolsList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.tech-title{
+    justify-content: center;
+    display: flex;
+}
