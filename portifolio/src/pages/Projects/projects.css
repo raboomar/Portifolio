@@ -1,6 +1,7 @@
 .project-title{
     display: flex;
-    justify-content: end;
+margin-top: 20px;
+ 
 }
 .github-link{
 margin: 0;
@@ -8,8 +9,8 @@ color: #D0C9C0;
 }
 
 .project-left{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     float: left;
     
 }
@@ -21,3 +22,33 @@ color: #D0C9C0;
 .about-project-right{
     margin-left: 10px;
 }
+.skill-title{
+    width: 50%;
+    margin: 50px auto 10px auto;
+    text-align: left;
+    padding: 0;
+}
+.project-row{
+    width: 50%;
+    margin: 25px auto 25px auto;
+} 
+@media only screen and (max-width: 600px) {
+    .project-row { 
+      width: 100%;
+     
+    }
+    .projects{
+        
+        position: relative;
+      
+    }
+    .about-project{
+      
+    }
+  
+    .project-left{
+        height: 300px;
+        width:300px;
+        float: none;
+    }
+  }

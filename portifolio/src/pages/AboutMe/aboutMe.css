@@ -1,12 +1,16 @@
-.middle-container{
-    margin: 20px 0;
-}
+
 .me{
     width: 200px;
     height: 200px;
 border-radius: 50%;
 }
 .intro{
-    width: 30%;
+    width: 50%;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .intro {
+      width: 100%;
+    }
+  }

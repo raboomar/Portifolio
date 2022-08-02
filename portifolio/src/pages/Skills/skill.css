@@ -3,7 +3,7 @@ ul {
 }
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 15px auto 15px auto;
     text-align: left;
   }
   .code-img {
@@ -24,4 +24,19 @@ ul {
 .tech-title{
     justify-content: center;
     display: flex;
+}
+.tech-title-back{
+  
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-row{
+    width: 100%;
+  }
+  .toolsList-backend{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
 }
