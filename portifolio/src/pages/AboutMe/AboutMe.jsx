@@ -14,8 +14,8 @@ const AboutMe = () => {
           macros. I soon realized that there is a whole world of programming
           languages. For the past two years, I have been learning new
           programming languages via udemy.com. Learning Java, HTML, CSS, and
-          JavaScript has developed into a personal hobby. I am eager to deepen
-          my understanding of web-development.
+          JavaScript has developed into a personal hobby and now a full time
+          career i'm currently a junior developer at TEKSystems Global
         </p>
       </div>
     </div>

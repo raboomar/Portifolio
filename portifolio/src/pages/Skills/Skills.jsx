@@ -14,12 +14,66 @@ function Skills() {
       </div>
 
       <div class="skill-row">
-        {/* <img
-          class="code-img"
-          src="https://miro.medium.com/max/1400/1*ulD6na_hQsXA5uC0acoteA.png"
-          alt="code-img"
-        /> */}
-        {/* <h3 className="tech-title-front">Front end</h3> */}
+        <p
+          style={{
+            display: "flex",
+
+            justifyContent: "center",
+          }}
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+            alt=""
+            style={{ width: 35, height: 35 }}
+          />
+        </p>
         <div className="toolsList">
           <ul>
             <li>React </li>

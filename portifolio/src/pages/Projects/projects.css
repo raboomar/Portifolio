@@ -23,13 +23,13 @@ color: #D0C9C0;
     margin-left: 10px;
 }
 .skill-title{
-    width: 50%;
+    width: 55%;
     margin: 50px auto 10px auto;
     text-align: left;
     padding: 0;
 }
 .project-row{
-    width: 50%;
+    width: 55%;
     margin: 25px auto 25px auto;
 } 
 @media only screen and (max-width: 600px) {

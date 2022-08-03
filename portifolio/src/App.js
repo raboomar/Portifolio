@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col";
 import "./app.css";
 
 import AboutMe from "./pages/AboutMe/AboutMe.jsx";
+import Education from "./pages/education/Education.jsx";
 function App() {
   return (
     <Container fluid>
@@ -16,6 +17,7 @@ function App() {
         <Col xs={12}>
           <LandingPage />
           <AboutMe />
+          <Education />
           <Projects />
           <Skills />
 
