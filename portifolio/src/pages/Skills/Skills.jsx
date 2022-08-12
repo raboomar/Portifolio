@@ -2,8 +2,8 @@ import "./skill.css";
 
 function Skills() {
   return (
-    <div class="skills">
-      <div class="skill-row">
+    <div id="skills" className="skills">
+      <div className="skill-row">
         <h2>Technology</h2>
         <p>
           some of the tools I have been working with recently both as an
@@ -13,7 +13,7 @@ function Skills() {
         </p>
       </div>
 
-      <div class="skill-row">
+      <div className="skill-row">
         <p
           style={{
             display: "flex",
@@ -100,7 +100,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div class="skill-row">
+      <div className="skill-row">
         {/* <img
           class="backend-img"
           src="https://cdn.programadoresbrasil.com.br/wp-content/uploads/2021/05/spring-framework.png"

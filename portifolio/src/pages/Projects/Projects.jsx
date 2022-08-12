@@ -2,14 +2,14 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div class="skills">
-      <div class="skill-title">
+    <div id="projects" className="skills">
+      <div className="skill-title">
         <h2 className="project-title">Projects</h2>
       </div>
 
-      <div class="project-row">
+      <div className="project-row">
         <img
-          class="project-left"
+          className="project-left"
           src="https://i.imgur.com/yYFvI9k.png"
           alt="code-img"
         />

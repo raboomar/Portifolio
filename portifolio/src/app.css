@@ -25,6 +25,10 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
   }
+  h6{
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+  }
   
   p {
     line-height: 2;

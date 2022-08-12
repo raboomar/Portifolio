@@ -3,9 +3,9 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div class="middle-container">
-      <div class="profile">
-        <p class="intro">
+    <div className="middle-container">
+      <div className="profile">
+        <p className="intro">
           I was first introduced to computing as an undergraduate. I was amazed
           by their logic, functions, and the manipulation and understanding of
           data. I quickly realized how powerful Microsoft is and took it upon
