@@ -23,7 +23,6 @@ function App() {
           <Projects />
           <Skills />
           <Education />
-
           <Contact />
         </Col>
       </Row>

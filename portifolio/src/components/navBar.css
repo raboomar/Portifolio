@@ -1,4 +1,6 @@
-
+.links{
+   font-size: larger;
+}
 .links:hover{
    cursor: pointer;
 }

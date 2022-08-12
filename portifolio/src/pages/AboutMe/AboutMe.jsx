@@ -5,6 +5,7 @@ const AboutMe = () => {
   return (
     <div className="middle-container">
       <div className="profile">
+        <h2 className="skill-row">About me</h2>
         <p className="intro">
           I was first introduced to computing as an undergraduate. I was amazed
           by their logic, functions, and the manipulation and understanding of
