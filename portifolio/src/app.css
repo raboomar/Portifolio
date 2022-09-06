@@ -52,3 +52,19 @@ body {
   a:hover {
     color: #EAF6F6;
   }
+  .profile-grid {
+    display: grid;
+    grid-template-areas:
+      'top top'
+      'about about'
+      
+      'projects projects'
+      'tech tech'
+      'exp edu'
+      
+      'contact contact';
+    grid-gap: 1rem;
+  }
+  .my-1 {
+    margin: 1rem 0;
+  }

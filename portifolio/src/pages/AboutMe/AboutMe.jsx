@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="middle-container">
+    <div className="profile-about  p-2">
       <div className="profile">
         <h2 className="skill-row">About me</h2>
         <p className="intro">

@@ -1,21 +1,18 @@
 import React from "react";
-
+import "./education.css";
 const Education = () => {
   return (
-    <div id="education" className="skills">
-      <div className="skill-row">
-        <h2>Education</h2>
-        <div>
-          <h6>TekSystems Global Services – Columbus, Ohio</h6>
-          <div>
-            <i>Full Stack Web Development Boot Camp</i> | Completed Spring 2022
-          </div>
-          <h6>The Ohio State University - Columbus, Ohio</h6>
-          <div>
-            <i>Bachelor of Science, Construction Systems Management</i> |
-            Completed: Spring 2018
-          </div>
-        </div>
+    <div className="profile-edu  p-2">
+      <h2>Education</h2>
+      <div>
+        <h3>The Ohio State University</h3>
+        <p> Completed: Spring 2018</p>
+        <p>
+          <strong>Degree: </strong>Bachelor of Science
+        </p>
+        <p>
+          <strong>Field Of Study: </strong>Construction Systems Management
+        </p>
       </div>
     </div>
   );

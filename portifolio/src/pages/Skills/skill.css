@@ -1,6 +1,9 @@
 ul {
     list-style-type: none;
 }
+.profile-skills{
+  grid-area: tech;
+}
 .skill-row {
     width: 55%;
     margin: 15px auto 15px auto;

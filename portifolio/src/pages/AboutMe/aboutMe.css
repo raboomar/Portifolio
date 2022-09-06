@@ -8,6 +8,10 @@ border-radius: 50%;
     width: 55%;
     margin: auto;
 }
+.profile-about {
+  grid-area: about;
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
     .intro {

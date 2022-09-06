@@ -1,5 +1,12 @@
-.top-container{
 
-  position: relative;
-  padding-top: 40px;
+.profile-top {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.p-2 {
+  padding: 2rem;
 }

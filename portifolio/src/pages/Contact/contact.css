@@ -1,10 +1,6 @@
-/* body{
-    background-color: #0c0c0c;
-    color: #ffff;
-    font-family: "Raleway", sans-serif;
-    padding-top: 60px;
-} */
-
+.profile-contact{
+    grid-area: contact;
+}
 .contact_form .form-control{
     padding: 1.375rem .75rem;
     line-height: 1.5;

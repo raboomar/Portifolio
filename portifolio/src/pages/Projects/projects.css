@@ -1,3 +1,7 @@
+.profile-projects{
+    grid-area: projects;
+}
+
 .project-title{
     display: flex;
 margin-top: 20px;
@@ -42,9 +46,7 @@ color: #D0C9C0;
         position: relative;
       
     }
-    .about-project{
-      
-    }
+
   
     .project-left{
         height: 300px;

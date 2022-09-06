@@ -2,7 +2,7 @@ import "./landingPage.css";
 
 function LandingPage() {
   return (
-    <section className="top-container">
+    <div className="profile-top  p-2">
       <img
         className="me"
         src={require("../../Images/IMG_4713.jpg")}
@@ -13,7 +13,7 @@ function LandingPage() {
 
         <h2>A Full-Stack Developer</h2>
       </div>
-    </section>
+    </div>
   );
 }
 
