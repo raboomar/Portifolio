@@ -1,0 +1,10 @@
+.experEdu-container{
+    grid-area: experEdu ;
+}
+.exper-container{
+    display: grid;
+    grid-template-areas:
+      'exp edu ';
+    
+justify-content: center;
+}

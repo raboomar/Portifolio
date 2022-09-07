@@ -2,43 +2,36 @@
     grid-area: projects;
 }
 
+.project-container{
+    display: grid;
+    grid-template-areas:
+    'title tile'
+      'project1 project2 ';
+      /* 'project2 project2'; */
+justify-content: center;
+}
 .project-title{
-    display: flex;
-margin-top: 20px;
- 
+    grid-area: title;
+
 }
-.project-link{
-    margin: none;
+.project-title-word{
+    text-align: center;
+    line-height:100px; 
+    vertical-align:middle
 }
-.github-link{
-margin: 0;
-color: #D0C9C0;
+.project1{
+    grid-area: project1;
+    margin-left: 45px;
+    
+
+}
+.project2{
+    grid-area: project2;
+  
 }
 
-.project-left{
-    height: 300px;
-    width: 300px;
-    float: left;
-    
-}
-.project-right{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-.about-project-right{
-    margin-left: 10px;
-}
-.skill-title{
-    width: 55%;
-    margin: 50px auto 10px auto;
-    text-align: left;
-    padding: 0;
-}
-.project-row{
-    width: 55%;
-    margin: 25px auto 25px auto;
-} 
+
+
 @media only screen and (max-width: 600px) {
     .project-row { 
       width: 100%;

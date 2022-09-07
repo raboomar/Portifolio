@@ -3,9 +3,9 @@ import Projects from "./pages/Projects/Projects.jsx";
 import Skills from "./pages/Skills/Skills.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import AboutMe from "./pages/AboutMe/AboutMe.jsx";
-import Education from "./pages/education/Education.jsx";
-import WorkExperience from "./pages/workExperience/WorkExperience.jsx";
+
 import "./app.css";
+import ExperEdu from "./components/ExperEdu.jsx";
 
 function App() {
   return (
@@ -13,10 +13,10 @@ function App() {
       <LandingPage />
       {/* <Navbar /> */}
       <AboutMe />
-      <WorkExperience />
+
       <Projects />
       <Skills />
-      <Education />
+      <ExperEdu />
       <Contact />
     </div>
   );

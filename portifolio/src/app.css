@@ -57,13 +57,12 @@ body {
     grid-template-areas:
       'top top'
       'about about'
-      
       'projects projects'
       'tech tech'
-      'exp edu'
-      
+      'experEdu experEdu'
       'contact contact';
-    grid-gap: 1rem;
+  
+    /* grid-gap: 1rem; */
   }
   .my-1 {
     margin: 1rem 0;
