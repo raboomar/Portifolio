@@ -8,12 +8,12 @@ function Projects() {
       </div>
 
       <div className="project-row">
-        <img
+        {/* <img
           className="project-left"
           src="https://i.imgur.com/yYFvI9k.png"
           alt="code-img"
-        />
-        <div className="">
+        /> */}
+        <div>
           <h3 className="tech-title">Admin Dashboard</h3>
           <div className="toolsList">
             <p>
@@ -35,39 +35,28 @@ function Projects() {
           </div>
         </div>
       </div>
-      {/* <div class="skill-row">
-        <img
-          class="project-right"
-          src="https://cdn.programadoresbrasil.com.br/wp-content/uploads/2021/05/spring-framework.png"
-          alt="chillies-img"
-        />
+      <div className="project-row">
+        <div>
+          <h3 className="tech-title">Rock Paper Scissors</h3>
+          <div className="toolsList">
+            <p className="project-link">
+              Link:
+              <a href="https://raboomar.github.io/-rock-paper-scissors/">
+                Man VS Computer
+              </a>
+            </p>
 
-        <h3 className="tech-title">project 2</h3>
-        <div className="toolsList">
-          <p className="about-project-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            voluptatum non aspernatur quisquam quos, et ipsa adipisci dolorum
-            corrupti deleniti natus voluptas officiis? Consequatur nulla
-            debitis, minima repudiandae alias iusto?
-          </p>
+            <p className="about-project-right">
+              Implemented the classic grad-school game "Rock Paper Scissors
+              which allowed me to practice my vanilla javascript and CSS
+              <br />
+              Technologies: HTML, CSS, Javascript.
+              <br />
+              Deployment: Github pages.
+            </p>
+          </div>
         </div>
-      </div> */}
-      {/* <div class="skill-row">
-        <img
-          class="project-left"
-          src="https://miro.medium.com/max/1400/1*ulD6na_hQsXA5uC0acoteA.png"
-          alt="code-img"
-        />
-        <h3 className="tech-title">Project 3</h3>
-        <div className="toolsList">
-          <p className="about-project-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            voluptatum non aspernatur quisquam quos, et ipsa adipisci dolorum
-            corrupti deleniti natus voluptas officiis? Consequatur nulla
-            debitis, minima repudiandae alias iusto?
-          </p>
-        </div>
-      </div> */}
+      </div>
     </div>
   );
 }
