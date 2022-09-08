@@ -6,9 +6,11 @@
     display: grid;
     grid-template-areas:
     'title tile'
-      'project1 project2 ';
-      /* 'project2 project2'; */
+      'project1 project2'
+      'project3 project4';
 justify-content: center;
+
+
 }
 .project-title{
     grid-area: title;
@@ -21,16 +23,36 @@ justify-content: center;
 }
 .project1{
     grid-area: project1;
-    margin-left: 45px;
-    
+    border-right: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+  width: 500px;
+  padding: 10px;
 
 }
 .project2{
     grid-area: project2;
-  
+    width: 500px;
+    padding: 10px;
+    border-bottom: 2px solid #dfdfdf;
+}
+.project3{
+
+grid-area: project3;
+width: 500px;
+padding: 10px;
+border-right: 2px solid #dfdfdf;
+
 }
 
 
+.project4{
+
+    grid-area: project4;
+    width: 500px;
+    padding: 10px;
+    
+    
+    }
 
 @media only screen and (max-width: 600px) {
     .project-row { 
