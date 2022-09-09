@@ -3,109 +3,120 @@ import "./skill.css";
 function Skills() {
   return (
     <div id="skills" className="profile-skills">
-      <div className="skill-row">
-        <h2>Technology</h2>
-        <p>
-          some of the tools I have been working with recently both as an
-          individual developer and in a team setting. My ever-growing skillset
-          is driven by enthusiastic curiosity as I continue to learn and create
-          with new technologies and languages.
-        </p>
-      </div>
+      <h2>Development Tools</h2>
+      <div className="skills-grid">
+        <div className="frontEnd-grid grid-item">
+          <div className="skills-card">
+            <div className="first-skill-row">
+              <iconify-icon
+                icon="icomoon-free:html-five2"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>HTML</h6>
+            </div>
+            <div>
+              <iconify-icon
+                icon="fa-brands:css3-alt"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>CSS</h6>
+            </div>
+            <div>
+              <iconify-icon icon="cib:javascript"></iconify-icon>
+              <h6>Javascript</h6>
+            </div>
 
-      <div className="skill-row">
-        <p
-          style={{
-            display: "flex",
+            <div>
+              <iconify-icon
+                icon="cib:react"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>React</h6>
+            </div>
+            <div>
+              <iconify-icon icon="simple-icons:redux"></iconify-icon>
+              <h6>Redux</h6>
+            </div>
+            <div>
+              <iconify-icon
+                icon="cib:jest"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>Jest</h6>
+            </div>
+            <div>
+              <iconify-icon icon="bi:bootstrap"></iconify-icon>
+              <h6>Bootstrap</h6>
+            </div>
+            <div>
+              <iconify-icon icon="bi:git"></iconify-icon>
+              <h6>Git</h6>
+            </div>
 
-            justifyContent: "center",
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
+            <div>
+              <iconify-icon
+                icon="cib:amazon-aws"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>AWS</h6>
+            </div>
 
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
+            <div>
+              <iconify-icon icon="cib:java"></iconify-icon>
+              <h6>Java</h6>
+            </div>
+            <div>
+              <iconify-icon icon="bxl:spring-boot"></iconify-icon>
+              <h6>Springboot</h6>
+            </div>
+            <div>
+              <iconify-icon icon="akar-icons:node-fill"></iconify-icon>
+              <h6>Node js</h6>
+            </div>
 
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
-            alt=""
-            style={{ width: 35, height: 35 }}
-          />
-        </p>
-        <div className="toolsList">
-          <ul>
-            <li>React </li>
-
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <ul>
-            <li>Redux </li>
-            <li>Material-UI</li>
-            <li>Bootstrap</li>
-            <li>AWS</li>
-          </ul>
-
-          <div className="toolsList-backend">
-            {/* <h3 className="tech-title-back">Back End</h3> */}
-            <ul title="Back end">
-              <li>Spring Boot </li>
-              <li>Java</li>
-              <li>Node.js</li>
-              <li>MySQL</li>
-            </ul>
+            <div>
+              <iconify-icon icon="simple-icons:express"></iconify-icon>
+              <h6>Express js</h6>
+            </div>
+            <div>
+              <iconify-icon icon="bxl:mongodb"></iconify-icon>
+              <h6>MongoDb</h6>
+            </div>
+            <div>
+              <iconify-icon icon="fontisto:mysql"></iconify-icon>
+              <h6>MySQL</h6>
+            </div>
+            <div>
+              <iconify-icon
+                icon="bxl:firebase"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>Firebase</h6>
+            </div>
+            <div>
+              <iconify-icon
+                icon="akar-icons:npm-fill"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>NPM</h6>
+            </div>
+            <div>
+              <iconify-icon
+                icon="akar-icons:github-fill"
+                width="40"
+                height="40"
+              ></iconify-icon>
+              <h6>Github</h6>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="skill-row">
-        {/* <img
-          class="backend-img"
-          src="https://cdn.programadoresbrasil.com.br/wp-content/uploads/2021/05/spring-framework.png"
-          alt="chillies-img"
-        /> */}
       </div>
     </div>
   );
