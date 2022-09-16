@@ -9,15 +9,17 @@ import ExperEdu from "./components/ExperEdu.jsx";
 
 function App() {
   return (
-    <div className="profile-grid my-1">
-      <LandingPage />
-      {/* <Navbar /> */}
-      <AboutMe />
+    <div className="container">
+      <div className="profile-grid my-1">
+        <LandingPage />
+        {/* <Navbar /> */}
+        <AboutMe />
 
-      <Projects />
-      <Skills />
-      <ExperEdu />
-      <Contact />
+        <Projects />
+        <Skills />
+        <ExperEdu />
+        <Contact />
+      </div>
     </div>
   );
 }

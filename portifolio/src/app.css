@@ -5,6 +5,11 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
   }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   
   h1 {
     color: white;
@@ -61,9 +66,31 @@ body {
       'tech tech'
       'experEdu experEdu'
       'contact contact';
-  
-    /* grid-gap: 1rem; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
   }
   .my-1 {
     margin: 1rem 0;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .profile-grid {
+      display: grid;
+      grid-template-areas:
+        'top '
+        'about '
+        'projects '
+        'tech '
+        'experEdu '
+        'contact ';
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      grid-gap: 1rem;
+    }
+    }

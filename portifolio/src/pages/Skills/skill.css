@@ -6,7 +6,7 @@
 .skills-grid{
   display: grid;
   grid-template-areas:
-   "auto auto auto ";
+   "auto auto auto  ";
   justify-content: center;
 
 }
@@ -16,7 +16,8 @@
 }
 
 .skills-card{
-  width: min(100%,500px);
+  /* width: min(100%,500px); */
+  width: 550px;
     height: 300px;
     margin: 16px 0 30px;
     border-radius: 10px;
@@ -38,4 +39,19 @@
 .icon{
   height: 80px;
   width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .skills-card{
+    width: 250px;
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto auto  ;
+    gap: 7px;
+    justify-content: center;
+    margin: 0;
+  }
+ 
+
 }
