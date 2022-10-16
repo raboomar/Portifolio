@@ -18,20 +18,17 @@ function Projects() {
                 </a>
               </p>
               <p>
-                <strong>Description: </strong>A Ad free app that allows Muslims
+                <strong>Description: </strong>An Ad free app that allows Muslims
                 around the world to quickly and easily identify the correct
                 prayer times with notifications for each prayer time throughout
                 the day, with the option to disable notifications available. The
                 app also allowed Muslims to identify the direction towards Mecca
                 for their Salah (prayer) with our simple and elegant Qibla.
               </p>
-              {/* <p className="tech-title">
-                <strong> Technologies: </strong>
-              </p> */}
               <div className="tech-stack">
                 <p>
                   <div className="tech-title">
-                    <strong>Technologies:</strong>{" "}
+                    <strong>Technologies:</strong>
                   </div>
                   <strong>Front-end:</strong> React Native, Redux Toolkit
                   <br />
@@ -46,27 +43,32 @@ function Projects() {
         </div>
 
         <div className="project2 project">
-          <div className="project-boxLower">
+          <div className="project2-box ">
             <div>
-              <h3>My Library</h3>
+              <h3>Krusty Krab</h3>
               <p>
                 <strong> Link:</strong>
-                <a href="https://ramibooklibrary.herokuapp.com/">My Library</a>
+                <a href="https://main.d3cgji0ctlpyfv.amplifyapp.com/">
+                  The Krusty Krab
+                </a>
               </p>
               <p>
-                <strong>Description: </strong> A book collection manager, where
-                you can add, remove, and update books. Users are required to
-                have an account. if you would like to check it out please
-                register
+                <strong>Description: </strong>Applied SOLID principles and
+                design patterns like Singleton to create a fake Krusty Krab
+                e-commerce site. <br /> Key features: A product page view that
+                displays products, a product detail view, and a shopping cart
+                view that allows for purchase functionality.
+                <br />
+                Forthcoming features: Admin dashboard to view orders and update
+                menu items, customer login for viewing past orders.
               </p>
-
               <p>
                 <strong> Technologies: </strong>
                 <br />
-                Front-end: React.js. Pure CSS Redux Toolkit
+                Front-end: React Native, Redux Toolkit, CSS <br />
+                Back-end: Node.Js, Express.Js, AWS DynamoDB
                 <br />
-                Back-end: Express.js, MongoDB. <br />
-                Deployment: Heroku.
+                Deployment: AWS Amplify, Elastic Beanstalk and Route 53.
               </p>
             </div>
           </div>
@@ -99,25 +101,27 @@ function Projects() {
         </div>
 
         <div className="project4 project">
-          <div className="project2-box ">
+          <div className="project-boxLower">
             <div>
-              <h3>Rock Paper Scissors</h3>
+              <h3>My Library</h3>
               <p>
                 <strong> Link:</strong>
-                <a href="https://raboomar.github.io/-rock-paper-scissors/">
-                  Man VS Computer
-                </a>
+                <a href="https://ramibooklibrary.herokuapp.com/">My Library</a>
               </p>
               <p>
-                <strong>Description: </strong> Implemented the classic
-                grad-school game "Rock Paper Scissors <br /> which allowed me to
-                practice my vanilla javascript and CSS
+                <strong>Description: </strong> A book collection manager, where
+                you can add, remove, and update books. Users are required to
+                have an account. if you would like to check it out please
+                register
               </p>
+
               <p>
                 <strong> Technologies: </strong>
                 <br />
-                Front-end: HTML, CSS, Javascript. <br />
-                Deployment: Github pages.
+                Front-end: React.js. Pure CSS Redux Toolkit
+                <br />
+                Back-end: Express.js, MongoDB. <br />
+                Deployment: Heroku.
               </p>
             </div>
           </div>
