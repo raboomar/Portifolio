@@ -7,7 +7,7 @@ function LandingPage() {
       <div className="img-container">
         <img
           className="me"
-          src={require("./rami.jpeg")}
+          src={require("portifolio/src/rami.jpeg")}
           alt="Rami-profile-img"
         />
       </div>
