@@ -1,11 +1,11 @@
-import me from "./me.jpeg";
+import me from "../../pages/LandingPage/me.jpeg";
 import "./landingPage.css";
 
 function LandingPage() {
   return (
     <div className="profile-top  p-2">
       <div className="img-container">
-        <img className="me" src={require("./me.jpeg")} alt="Rami-profile-img" />
+        <img className="me" src={me} alt="Rami-profile-img" />
       </div>
       <div className="title-text">
         <h1>I'm Rami Aboomar.</h1>
