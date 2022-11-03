@@ -1,3 +1,4 @@
+import IMAGES from "../../Images/images";
 import "./landingPage.css";
 
 function LandingPage() {
@@ -6,7 +7,7 @@ function LandingPage() {
       <div className="img-container">
         <img
           className="me"
-          src={require("../../Images/rami.jpeg")}
+          src={require("./rami.jpeg")}
           alt="Rami-profile-img"
         />
       </div>
