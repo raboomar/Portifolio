@@ -3,11 +3,13 @@ import "./landingPage.css";
 function LandingPage() {
   return (
     <div className="profile-top  p-2">
-      <img
-        className="me"
-        src={require("../../Images/IMG_4713.jpg")}
-        alt="Rami-profile-img"
-      />
+      <div className="img-container">
+        <img
+          className="me"
+          src={require("../../Images/me.jpeg")}
+          alt="Rami-profile-img"
+        />
+      </div>
       <div className="title-text">
         <h1>I'm Rami Aboomar.</h1>
 

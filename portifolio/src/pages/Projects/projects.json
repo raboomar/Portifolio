@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Daily Salah",
+    "link": "https://apps.apple.com/us/app/daily-salah/id1628694786?platform=iphone",
+    "description": "An Ad free app that allows Muslims around the world to quickly and easily identify the correct prayer times with notifications for each prayer time throughout the day, with the option to disable notifications available. The app also allowed Muslims to identify the direction towards Mecca for their Salah (prayer) with our simple and elegant Qibla.",
+    "front": "React Native, Redux Toolkit",
+    "back": "Express.js, Firebase Cloud Firestore, Cloud Functions.",
+    "deployment": "Expo/EAS."
+  },
+  {
+    "name": "Krusty Krab",
+    "link": "https://main.d3cgji0ctlpyfv.amplifyapp.com/",
+    "description": "Applied SOLID principles and design patterns like Singleton to create a fake Krusty Krab e-commerce site. Key features: A product page view that displays products, a product detail view, and a shopping cart view that allows for purchase functionality.",
+    "front": "React Native, Redux Toolkit, CSS",
+    "back": "Node.Js, Express.Js, AWS DynamoDB",
+    "deployment": "AWS Amplify, Elastic Beanstalk and Route 53."
+  },
+
+  {
+    "name": "My Library",
+    "link": "https://ramibooklibrary.herokuapp.com/",
+    "description": "Applied SOLID principles and design patterns like Singleton to create a book collection manager, where can add, remove, and update books. Users are required to have an account. if you would like to check it out please register",
+    "front": "React.js. Pure CSS Redux Toolkit",
+    "back": "Express.js, MongoDB.",
+    "deployment": "Heroku."
+  },
+  {
+    "name": "Admin Dashboard",
+    "link": "https://main.d21nudikvh3ule.amplifyapp.com/",
+    "description": "This is a full stack website that allows users to cerate, read, update, and delete (CRUD) users as they please.",
+    "front": "React.js, antd-design.",
+    "back": "Spring Boot API, Spring JPA. ",
+    "deployment": "AWS RDS, Elastic BeanStalk, Amplify, and Route 53."
+  }
+]

@@ -6,16 +6,17 @@ import AboutMe from "./pages/AboutMe/AboutMe.jsx";
 
 import "./app.css";
 import ExperEdu from "./components/ExperEdu.jsx";
+import ProjectCarousel from "./pages/Projects/ProjectCarousel.js";
 
 function App() {
   return (
     <div className="container">
       <div className="profile-grid my-1">
         <LandingPage />
-        {/* <Navbar /> */}
-        <AboutMe />
 
-        <Projects />
+        <AboutMe />
+        <ProjectCarousel />
+        {/* <Projects /> */}
         <Skills />
         <ExperEdu />
         <Contact />

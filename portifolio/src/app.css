@@ -13,7 +13,7 @@ body {
   
   h1 {
     color: white;
-    font-size: 5.625rem;
+    font-size: 5.00rem;
     margin: 10px auto 0 auto;
     font-family: 'Sacramento', cursive;
   }
@@ -21,7 +21,7 @@ body {
   h2 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: normal;
     padding-bottom: 10px;
   }
