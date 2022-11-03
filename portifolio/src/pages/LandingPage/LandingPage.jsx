@@ -1,4 +1,4 @@
-import me from "../../Images/me.jpeg";
+import me from "./me.jpeg";
 import "./landingPage.css";
 
 function LandingPage() {
