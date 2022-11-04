@@ -1,10 +1,14 @@
 import "./landingPage.css";
-import rami from "../../Images/rami.jpeg";
+
 function LandingPage() {
   return (
     <div className="profile-top  p-2">
       <div className="img-container">
-        <img className="me" alt="Rami-profile-img" src={rami} />
+        <img
+          className="me"
+          alt="Rami-profile-img"
+          src={"https://i.imgur.com/XIRrMza.jpg"}
+        />
       </div>
       <div className="title-text">
         <h1>I'm Rami Aboomar.</h1>
