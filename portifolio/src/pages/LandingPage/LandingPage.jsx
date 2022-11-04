@@ -1,14 +1,10 @@
 import "./landingPage.css";
-
+import rami from "../../Images/rami.jpeg";
 function LandingPage() {
   return (
     <div className="profile-top  p-2">
       <div className="img-container">
-        <img
-          className="me"
-          alt="Rami-profile-img"
-          src={require(process.env.PUBLIC_URL + "../../Images/rami.jpeg")}
-        />
+        <img className="me" alt="Rami-profile-img" src={rami} />
       </div>
       <div className="title-text">
         <h1>I'm Rami Aboomar.</h1>
