@@ -7,7 +7,9 @@ function LandingPage() {
         <img
           className="me"
           alt="Rami-profile-img"
-          src={"https://i.imgur.com/XIRrMza.jpg"}
+          src={
+            "https://firebasestorage.googleapis.com/v0/b/dima-1b9e5.appspot.com/o/rami.jpeg?alt=media&token=c15aef6d-5ba7-4cdf-af2d-c4a58981d39d"
+          }
         />
       </div>
       <div className="title-text">

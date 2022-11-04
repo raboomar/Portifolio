@@ -80,7 +80,7 @@ function Projects() {
               <h3>Admin Dashboard</h3>
               <p>
                 <strong> Link:</strong>
-                <a href="https://firebasestorage.googleapis.com/v0/b/dima-1b9e5.appspot.com/o/rami.jpeg?alt=media&token=c15aef6d-5ba7-4cdf-af2d-c4a58981d39d">
+                <a href="https://main.d21nudikvh3ule.amplifyapp.com/">
                   User Dashboard
                 </a>
               </p>
