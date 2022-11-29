@@ -23,13 +23,5 @@
     "front": "React.js. Pure CSS Redux Toolkit",
     "back": "Express.js, MongoDB.",
     "deployment": "Heroku."
-  },
-  {
-    "name": "Admin Dashboard",
-    "link": "https://main.d21nudikvh3ule.amplifyapp.com/",
-    "description": "This is a full stack website that allows users to cerate, read, update, and delete (CRUD) users as they please.",
-    "front": "React.js, antd-design.",
-    "back": "Spring Boot API, Spring JPA. ",
-    "deployment": "AWS RDS, Elastic BeanStalk, Amplify, and Route 53."
   }
 ]
