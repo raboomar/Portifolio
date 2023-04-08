@@ -1,3 +1,22 @@
 .profile-exp {
-    grid-area: exp;
+    grid-area: experience;
+    width: 55%;
+    margin: auto;
+  }
+
+.work-grid{
+  display: grid;
+  grid-template-areas:
+    'header header header date date date';
+  gap: 10px;
+  padding: 10px;
+  }
+
+  .work--title{
+    grid-area: header;
+    text-align: left;
+  }
+  .work--date{
+    text-align: right;
+    grid-area: date;
   }

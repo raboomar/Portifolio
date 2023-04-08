@@ -1,22 +1,23 @@
 import React from "react";
 import "./experience.css";
+import experience from "./experience.json";
 const WorkExperience = () => {
+  console.log(experience);
   return (
-    <div className="profile-exp  p-2">
+    <div className="profile-exp">
       <h2>Experience</h2>
-      <div>
-        <h3>TekSystems Global Services</h3>
-        <p>05/2022 - Present</p>
-        <p>
-          <strong>Position: </strong>Junior Developer
-        </p>
-        {/* <p>
-          <strong>Description: </strong>Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Dignissimos placeat, dolorum ullam ipsam, sapiente
-          suscipit dicta eius velit amet aspernatur asperiores modi quidem
-          expedita fugit.
-        </p> */}
-      </div>
+      {experience.map((job) => (
+        <div className="work-grid">
+          <div className="work--title">
+            <h3>{job.title}</h3>
+            <p className="work--position--text">
+              <strong>Position: </strong>
+              {job.position}
+            </p>
+          </div>
+          <p className="work--date">{job.date}</p>
+        </div>
+      ))}
     </div>
   );
 };

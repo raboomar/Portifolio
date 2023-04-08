@@ -62,9 +62,9 @@ body {
     grid-template-areas:
       'top top'
       'about about'
+      'experience experience'
       'projects projects'
       'tech tech'
-      'experEdu experEdu'
       'contact contact';
   justify-content: center;
   align-items: center;
@@ -82,9 +82,9 @@ body {
       grid-template-areas:
         'top '
         'about '
+        'experience '
         'projects '
         'tech '
-        'experEdu '
         'contact ';
     width: 100%;
 

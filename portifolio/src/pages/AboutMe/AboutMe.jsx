@@ -16,8 +16,8 @@ const AboutMe = () => {
           languages. For the past two years, I have been learning new
           programming languages via udemy.com. Learning Java, HTML, CSS, and
           JavaScript has developed into a personal hobby and is now a full-time
-          career. I'm a junior developer at TEKSystems Global using Java,
-          JavaScript and React to help clients achieve their goals by building
+          career. I'm a software engineer at Duke Energy using tools like AWS,
+          JavaScript and Angular to help achieve our company goals by building
           solutions to thrive in a new world of opportunities.
         </p>
       </div>
