@@ -1,0 +1,76 @@
+[
+  {
+    "iconName": "icomoon-free:html-five2",
+    "name": "HTML"
+  },
+  {
+    "iconName": "fa-brands:css3-alt",
+    "name": "CSS"
+  },
+  {
+    "iconName": "cib:javascript",
+    "name": "Javascript"
+  },
+  {
+    "iconName": "teenyicons:python-outline",
+    "name": "Python"
+  },
+  {
+    "iconName": "cib:java",
+    "name": "Java"
+  },
+  {
+    "iconName": "akar-icons:node-fill",
+    "name": "Node.JS"
+  },
+  {
+    "iconName": "cib:react",
+    "name": "React"
+  },
+  {
+    "iconName": "mdi:angular",
+    "name": "Angular"
+  },
+  {
+    "iconName": "bxl:firebase",
+    "name": "Firebase"
+  },
+  {
+    "iconName": "mdi:aws",
+    "name": "AWS"
+  },
+  {
+    "iconName": "pajamas:terraform",
+    "name": "Terraform"
+  },
+
+  {
+    "iconName": "simple-icons:amazondynamodb",
+    "name": "DynamoDB"
+  },
+  {
+    "iconName": "fontisto:mysql",
+    "name": "MySQL"
+  },
+  {
+    "iconName": "bxl:postgresql",
+    "name": "PostgreSQL"
+  },
+  {
+    "iconName": "cib:jest",
+    "name": "Jest"
+  },
+
+  {
+    "iconName": "bi:git",
+    "name": "Git"
+  },
+  {
+    "iconName": "teenyicons:bitbucket-outline",
+    "name": "Bitbucket"
+  },
+  {
+    "iconName": "akar-icons:github-fill",
+    "name": "Github"
+  }
+]

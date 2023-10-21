@@ -3,7 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import projects from "./projects.json";
 import "./projects.css";
 const ProjectCarousel = () => {
-  console.log(projects);
   return (
     <div className="profile-projects">
       <div className="project-title">
@@ -11,7 +10,7 @@ const ProjectCarousel = () => {
       </div>
       <Carousel indicators={false} className="carousel">
         {projects.map((project) => (
-          <Carousel.Item className="carousel_item">
+          <Carousel.Item key={project.name} className="carousel_item">
             <div>
               <h3>{project.name}</h3>
               <p>
@@ -23,7 +22,7 @@ const ProjectCarousel = () => {
                 {project.description}
               </p>
               <div className="">
-                <p>
+                <div>
                   <div className="">
                     <strong>Technologies:</strong>
                   </div>
@@ -34,7 +33,7 @@ const ProjectCarousel = () => {
                   <br />
                   <strong>Deployment: </strong>
                   {project.deployment}
-                </p>
+                </div>
               </div>
             </div>
           </Carousel.Item>
