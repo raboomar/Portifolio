@@ -12,12 +12,12 @@
     "name": "Javascript"
   },
   {
-    "iconName": "teenyicons:python-outline",
-    "name": "Python"
+    "iconName": "teenyicons:typescript-solid",
+    "name": "Typescript"
   },
   {
-    "iconName": "cib:java",
-    "name": "Java"
+    "iconName": "teenyicons:python-outline",
+    "name": "Python"
   },
   {
     "iconName": "akar-icons:node-fill",
