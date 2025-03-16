@@ -14,5 +14,13 @@
     "front": "React.js, TypeScript",
     "back": "AWS Lambda",
     "deployment": "GitHub Actions, AWS S3, CloudFront"
+  },
+  {
+    "name": "RSVP App",
+    "link": "https://d219yqr5nr3om6.cloudfront.net/add/friends",
+    "description": "This project is designed to help me manage the RSVPs for my special day.",
+    "front": "Angular, TypeScript",
+    "back": "Python, AWS API Gateway, Lambdas, DynamoDB",
+    "deployment": "GitHub Actions, Terraform, AWS S3, CloudFront"
   }
 ]
