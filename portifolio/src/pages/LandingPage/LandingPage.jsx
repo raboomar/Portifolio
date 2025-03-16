@@ -16,7 +16,7 @@ function LandingPage() {
         <h1>I'm Rami Aboomar.</h1>
 
         <h2>A Full-Stack Developer</h2>
-        <p>Columbus, Ohio</p>
+        <p>Charlotte, NC</p>
         <div className="icons my-1">
           <a href="mailto:aboomar.2@osu.edu" target="email">
             <i className="fas fa-envelope fa-2x"></i>

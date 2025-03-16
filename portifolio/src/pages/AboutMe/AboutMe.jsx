@@ -17,7 +17,7 @@ const AboutMe = () => {
           programming languages via udemy.com. Learning Java, HTML, CSS, and
           JavaScript has developed into a personal hobby and is now a full-time
           career. I'm a software engineer at Duke Energy using tools like AWS,
-          JavaScript and Angular to help achieve our company goals by building
+          Python and Angular to help achieve our company goals by building
           solutions to thrive in a new world of opportunities.
         </p>
       </div>

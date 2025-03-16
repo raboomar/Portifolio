@@ -8,20 +8,11 @@
     "deployment": "Expo/EAS."
   },
   {
-    "name": "Krusty Krab",
-    "link": "https://main.d3cgji0ctlpyfv.amplifyapp.com/",
-    "description": "Applied SOLID principles and design patterns like Singleton to create a fake Krusty Krab e-commerce site. Key features: A product page view that displays products, a product detail view, and a shopping cart view that allows for purchase functionality.",
-    "front": "React Native, Redux Toolkit, CSS",
-    "back": "Node.Js, Express.Js, AWS DynamoDB",
-    "deployment": "AWS Amplify, Elastic Beanstalk and Route 53."
-  },
-
-  {
-    "name": "My Library",
-    "link": "https://ramibooklibrary.herokuapp.com/",
-    "description": "Applied SOLID principles and design patterns like Singleton to create a book collection manager, where can add, remove, and update books. Users are required to have an account. if you would like to check it out please register",
-    "front": "React.js. Pure CSS Redux Toolkit",
-    "back": "Express.js, MongoDB.",
-    "deployment": "Heroku."
+    "name": "Virginia Beach Polling Locations",
+    "link": "https://d12x3uvpe6slnc.cloudfront.net/",
+    "description": "This project provides users with a streamlined and responsive interface to find polling locations in Virginia Beach, created in anticipation of the upcoming elections. Utilizing Google Maps, I displayed polling locations so users can easily pinpoint where to vote. Built with a mobile-first approach, the app is accessible on any device, ensuring a consistent experience across phones, tablets, and desktops.",
+    "front": "React.js, TypeScript",
+    "back": "AWS Lambda",
+    "deployment": "GitHub Actions, AWS S3, CloudFront"
   }
 ]
